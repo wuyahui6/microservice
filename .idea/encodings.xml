@@ -4,10 +4,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-cusumer-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-cusumer-orderConsul80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-cusumer-orderzk80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-service7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-service7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-paymentConsul8005" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-paymentzk8004" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
