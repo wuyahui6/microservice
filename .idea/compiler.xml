@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-cusumer-order-OpenFein80" />
         <module name="cloud-cusumer-order80" />
         <module name="cloud-provider-paymentConsul8005" />
         <module name="cloud-provider-payment8002" />

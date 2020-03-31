@@ -18,6 +18,7 @@
         <module>cloud-cusumer-orderzk80</module>
         <module>cloud-provider-paymentConsul8005</module>
         <module>cloud-cusumer-orderConsul80</module>
+        <module>cloud-cusumer-order-OpenFein80</module>
     </modules>
     <packaging>pom</packaging>
 

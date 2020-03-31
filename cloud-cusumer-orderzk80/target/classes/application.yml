@@ -5,9 +5,5 @@ spring:
   application:
     name: cloudCusumerOrderZk
   cloud:
-    consul:
-      instance-id: consul8005
-      host: 192.168.1.139
-      port: 8500
-      discovery:
-        service-name: ${spring.application.name}
+    zookeeper:
+      connect-string: 192.168.1.139:2181
