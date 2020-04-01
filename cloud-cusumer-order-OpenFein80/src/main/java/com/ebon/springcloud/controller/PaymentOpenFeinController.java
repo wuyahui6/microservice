@@ -32,4 +32,16 @@ public class PaymentOpenFeinController {
         CommonResult<Payment> entity = paymentService.getPaymentById(id);
         return entity;
     }
+
+    /**
+     * @Author wyh
+     * @Description : OpenFein 默认1秒超时
+     * @Date 17:53 2020/3/31
+     * @Param
+     * @return
+     **/
+    @GetMapping("/consumer/timeOut")
+    public String getTimeOut(){
+        return paymentService.timeOut();
+    }
 }

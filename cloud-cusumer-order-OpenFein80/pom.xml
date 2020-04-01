@@ -12,6 +12,10 @@
     <artifactId>cloud-cusumer-order-OpenFein80</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!-- OpenFein -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

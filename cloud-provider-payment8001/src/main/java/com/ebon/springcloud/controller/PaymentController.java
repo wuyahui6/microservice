@@ -49,4 +49,14 @@ public class PaymentController {
             return new CommonResult(444,"没有对应记录,查询ID: "+id,null);
         }
     }
+
+    @GetMapping("/provider/timeOut")
+    public String timeOut() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
+    }
 }
